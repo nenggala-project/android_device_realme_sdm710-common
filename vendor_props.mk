@@ -100,6 +100,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.cpurend.vsync=true \
     debug.egl.callstack=1 \
     debug.egl.hw=0 \
     debug.mdpcomp.logs=0 \
