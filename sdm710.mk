@@ -292,6 +292,7 @@ PRODUCT_COPY_FILES += \
 
 # Kernel
 LOCAL_KERNEL := $(LOCAL_PATH)/prebuilt/Image.gz-dtb
+PRODUCT_VENDOR_KERNEL_HEADERS := $(LOCAL_PATH)/kernel-headers
 
 PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
 
