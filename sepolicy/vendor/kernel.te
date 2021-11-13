@@ -1,1 +1,4 @@
 allow kernel kernel:socket { create };
+allow kernel self:capability dac_override;
+allow kernel vfat:file open;
+allow kernel vfat:dir search;
