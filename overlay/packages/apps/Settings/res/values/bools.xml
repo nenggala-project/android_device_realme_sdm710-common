@@ -13,5 +13,8 @@
 
 <resources>
     <!-- Whether to show a preference item for mobile plan -->
-    <bool name="config_show_mobile_plan">false</bool>
+    <bool name="config_show_mobile_plan">true</bool>
+    
+    <!-- Whether or not device header widget tile should display in device info page -->
+    <bool name="config_show_device_header_in_device_info">true</bool>
 </resources>
