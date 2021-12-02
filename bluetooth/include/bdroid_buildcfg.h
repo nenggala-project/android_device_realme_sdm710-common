@@ -37,6 +37,7 @@ typedef struct {
 
 static const device_t devices[] = {
     {"RMX1901", "Realme X"},
+    {"RMX1903", "Realme X"},
     {"RMX1921", "Realme XT"},
     {"RMX1971", "Realme 5 Pro"},
 };
